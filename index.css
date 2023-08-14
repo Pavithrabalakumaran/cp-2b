@@ -1,0 +1,24 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.notification-app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title {
+  color: black;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+}
